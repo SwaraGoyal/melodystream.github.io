@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Frank+Ruhl+Libre:wght@300;500&family=Great+Vibes&family=Satisfy&display=swap');
+
+body {
+    background-color: #373e64;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Satisfy', cursive;
+}
+
+nav ul {
+    font-size: 21px;
+    color: white;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+}
+
+.logo img {
+    width: 49px;
+    padding: 0 8px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+nav ul li {
+    padding: 0 23px;
+}
+
+.container {
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    word-spacing: 10px;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+.bottom {
+
+    background-color: black;
+    height: 69px;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    font-family: 'Satisfy', cursive;
+}
+
+.icons i {
+    cursor: pointer;
+    padding: 4px;
+}
+
+#volume {
+    width: 80vw;
+    height: 28px;
+}
+
+.songitem {
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    display: flex;
+    background-color: #d8edff;
+    width: 191%;
+    color: black;
+    margin: 12px 0;
+    border-radius: 64px;
+
+}
+
+.songitem img {
+
+    margin: 12px;
+    height: 41px;
+    width: 58px;
+    border-radius: 34px;
+}
+
+.timestamp {
+    margin: 0 23px;
+    cursor: pointer;
+}
+
+.songinfo{
+   position: absolute;
+   left: 5vw;
+
+ }
+ .songinfo span{
+    margin-left: 17px;
+}
+ 
+ .songinfo img{
+    
+  opacity: 0;
+  transition: opacity 1s ease-in;
+ 
+  }
+  
